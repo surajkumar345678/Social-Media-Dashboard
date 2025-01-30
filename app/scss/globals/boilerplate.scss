@@ -1,14 +1,18 @@
-html{
-    font-size: 100%;
-    box-sizing: border-box;
+html {
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after{
-     box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-inter);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-inter);
+  background: var(--very-dark-blue);
+  color: var(--white-text);
 }
