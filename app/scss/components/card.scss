@@ -1,4 +1,4 @@
-@use "../util/" as *;
+@use '../util' as *;
 
 .cards {
   display: grid;
@@ -17,45 +17,50 @@
 .card {
   position: relative;
   overflow: hidden;
-  background: var(--dark-desaturated-blue);
-  color: var(--desaturated-blue);
-  text-align: center;
+  background: var(--card-bg);
+  color: var(--dark-text1);
   padding: rem(25);
   border-radius: rem(5);
-  transition: background 0.15s ease-in-out;
+  text-align: center;
+  transition: background 150ms ease-in-out;
   cursor: pointer;
 
-  &:hover{
-    background: var(--dark-card-hover);
+  &:hover {
+    background: var(--card-hover);
   }
 
   &--facebook {
     border-top: rem(5) solid var(--facebook);
   }
+
   &--twitter {
     border-top: rem(5) solid var(--twitter);
   }
+
   &--instagram {
     padding-top: rem(30);
+
     &::before {
-      width: 100%;
-      content: "";
-      height: rem(5);
-      background: var(--instagram);
+      content: '';
       position: absolute;
       display: block;
       left: 0;
       top: 0;
+      width: 100%;
+      height: rem(5);
+      background: linear-gradient(
+        225deg,
+        var(--instagram-end),
+        var(--instagram-middle) 50.91%,
+        var(--instagram-start) 100%
+      ); // var(--instagram-start);
     }
+    //border-top: rem(5) solid linear-gradient(225deg, hsl(329, 70%, 58%) 0%, hsl(5, 77%, 71%) 50.91%, #fdc366 100%);
   }
+
   &--youtube {
     border-top: rem(5) solid var(--youtube);
   }
-
-&__subtitle{
-  font-size: rem(14);
-  font-weight: 700;
-}
 
   &__platform {
     display: flex;
@@ -66,20 +71,32 @@
     margin-bottom: rem(28);
   }
 
+  &__subtitle {
+    font-size: rem(14);
+    font-weight: 700;
+    color: var(--text-color2);
+  }
+
   &__icon {
     margin-right: rem(8);
+
     &--facebook {
     }
+
     &--twitter {
     }
+
     &--instagram {
     }
+
     &--youtube {
     }
   }
+
   &__username {
     font-size: rem(12);
     font-weight: 700;
+    color: var(--text-color2);
   }
 
   &__followers {
@@ -87,7 +104,7 @@
   }
 
   &__count {
-    color: var(--white-bg);
+    color: var(--text-color);
     font-weight: 700;
     letter-spacing: rem(-2);
     line-height: 1;
@@ -101,11 +118,12 @@
       font-size: rem(32);
     }
   }
+
   &__label {
     font-size: rem(12);
     letter-spacing: rem(5);
     font-weight: 400;
-    color: var(--desaturated-blue);
+    color: var(--text-color2);
     text-transform: uppercase;
   }
 
@@ -114,20 +132,21 @@
     align-items: center;
     justify-content: center;
     font-size: rem(12);
-    font-size: 700;
+    font-weight: 700;
 
     &--up {
-      color: var(--lime-green);
+      color: var(--limegreen);
     }
 
     &--down {
-      color: var(--bright-red);
+      color: var(--brightred);
     }
 
     img {
       margin-right: rem(4);
     }
   }
+
   &__number {
   }
 }
