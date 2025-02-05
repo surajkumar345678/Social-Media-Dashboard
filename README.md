@@ -18,7 +18,7 @@ A dynamic web application that provides a comprehensive dashboard for monitoring
 - Internet connection
 
 ## 🌐 Project Demo
-Check out the live demo [here](https://kumarsuraj345678.github.io/Social-Media-Dashboard/).
+Check out the live demo [here](https://surajkumar345678.github.io/Social-Media-Dashboard/).
 
 ## 📚 Usage
 1. Open the application in your web browser.
@@ -28,13 +28,18 @@ Check out the live demo [here](https://kumarsuraj345678.github.io/Social-Media-D
 
 ## 📸 Screenshots
 ### Dashboard Overview
-![Dashboard Overview]()
+![Macbook-Air-1559x975](https://github.com/user-attachments/assets/d2f6ab1c-8883-47b7-9079-53255ddb22fa)
+![iPad-Air-5-820x1180](https://github.com/user-attachments/assets/d5573491-be19-41e0-af78-ee00763bc265)
+
+
 
 ### Mobile View
-![Mobile View]()
+![iPhone-14-Pro-Max-430x932](https://github.com/user-attachments/assets/359229d8-fc79-424f-a6f4-d83056d1e606)
 
 ### Dark Mode
-![Dark Mode]()
+![Macbook-Air-1559x975](https://github.com/user-attachments/assets/05b9abc6-fc0d-4af2-97e3-ed0d83302370)
+![iPad-Air-5-820x1180](https://github.com/user-attachments/assets/441163dd-cb28-448e-a36a-fd68fcc3f15c)
+![iPhone-14-Pro-Max-430x932](https://github.com/user-attachments/assets/517e32d3-b662-41a7-8fa9-f0c209beb9cd)
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
