@@ -18,7 +18,7 @@ A dynamic web application that provides a comprehensive dashboard for monitoring
 - Internet connection
 
 ## 🌐 Project Demo
-Check out the live demo [here](https://surajkumar345678.github.io/Social-Media-Dashboard/).
+Check out the live demo [here](https://kumarsuraj345678.github.io/Social-Media-Dashboard/).
 
 ## 📚 Usage
 1. Open the application in your web browser.
